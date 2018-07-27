@@ -26,3 +26,27 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+ul.tasks li{
+  list-style-type: none;
+  text-align: left;
+  color: #C91F37;
+  padding: 7px;
+  margin-left: -55px;
+  border-bottom: 1px solid black;
+}
+.checked{
+  text-decoration: line-through;
+}
+
+ul.tasks{
+  max-width: 400px;
+  margin: 20px auto;
+}
+ul.tasks a{
+  float: right;
+}
+
+ul.tasks li a{
+  color: #5D8CAE;
+}
